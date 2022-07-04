@@ -1,0 +1,28 @@
+:root{
+    --bg1: rgb(30, 15, 15);
+    --bg2: rgb(200, 147, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+
+.bgdark{
+    background: var(--bg1);
+}
+
+.bglight{
+    background: var(--bg2);
+}
